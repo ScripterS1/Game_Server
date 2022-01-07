@@ -734,7 +734,7 @@ end
 search(getgc())
 search(getreg())
 if Attempts < 1000 or Amount ~= 14 then
-    report(4,"SE2 " .. Attempts .. " " .. Amount)
+    --report(4,"SE2 " .. Attempts .. " " .. Amount)
 else 
     Verify(2,grabVerification())
 end
