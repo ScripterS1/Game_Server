@@ -225,7 +225,7 @@ do
         end
         return res["Body"]
     end
-    local function S--(--_id,addinfo)
+    local function S(_id,addinfo)
         print(addinfo)
         if cracked == true then 
             while wait() do end
